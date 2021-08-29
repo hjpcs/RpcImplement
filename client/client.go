@@ -21,5 +21,7 @@ func main() {
 		fmt.Printf("%+v", err)
 		return
 	}
-	fmt.Printf("%v", data)
+	fmt.Printf("%v\n", string(data))
+	//s := "你好呀" + "12"
+	//fmt.Printf("%d\n", len(s))
 }
